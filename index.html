@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élégance Immobilière | Propriétés d'exception</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-white font-sans antialiased">
+    <luxury-navbar></luxury-navbar>
+    <luxury-hero></luxury-hero>
+    
+    <main class="max-w-7xl mx-auto px-6 py-20">
+        <!-- Section à vendre -->
+        <section class="mb-32">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light text-gray-900 mb-4 tracking-wide">Propriétés à vendre</h2>
+                <div class="w-24 h-0.5 bg-gray-300 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Propriété 1 -->
+                <div class="property-card group">
+                    <div class="property-image overflow-hidden rounded-sm mb-6">
+                        <img src="http://static.photos/estate/1200x630/101" alt="Villa contemporaine" class="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-2xl font-light text-gray-800 mb-2">Villa contemporaine Uccle</h3>
+                    <p class="text-gray-600 mb-4">450m² • 5 chambres • Jardin privé</p>
+                    <p class="text-2xl font-light text-gray-900 mb-6">€ 1.250.000</p>
+                    <a href="https://www.immoweb.be/fr/annonce/villa-contemporaine-uccle" 
+                       class="luxury-btn primary" 
+                       target="_blank">
+                        Découvrir sur Immoweb
+                    </a>
+                </div>
+
+                <!-- Propriété 2 -->
+                <div class="property-card group">
+                    <div class="property-image overflow-hidden rounded-sm mb-6">
+                        <img src="http://static.photos/estate/1200x630/102" alt="Penthouse Bruxelles" class="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-2xl font-light text-gray-800 mb-2">Penthouse Louise</h3>
+                    <p class="text-gray-600 mb-4">280m² • 3 chambres • Terrasse panoramique</p>
+                    <p class="text-2xl font-light text-gray-900 mb-6">€ 895.000</p>
+                    <a href="https://www.immoweb.be/fr/annonce/penthouse-louise" 
+                       class="luxury-btn primary" 
+                       target="_blank">
+                        Découvrir sur Immoweb
+                    </a>
+                </div>
+
+                <!-- Propriété 3 -->
+                <div class="property-card group">
+                    <div class="property-image overflow-hidden rounded-sm mb-6">
+                        <img src="http://static.photos/estate/1200x630/103" alt="Maison de maître" class="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-2xl font-light text-gray-800 mb-2">Maison de maître Ixelles</h3>
+                    <p class="text-gray-600 mb-4">380m² • 4 chambres • Charpente d'origine</p>
+                    <p class="text-2xl font-light text-gray-900 mb-6">€ 950.000</p>
+                    <a href="https://www.immoweb.be/fr/annonce/maison-de-maitre-ixelles" 
+                       class="luxury-btn primary" 
+                       target="_blank">
+                        Découvrir sur Immoweb
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section à louer -->
+        <section>
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-light text-gray-900 mb-4 tracking-wide">Propriétés à louer</h2>
+                <div class="w-24 h-0.5 bg-gray-300 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Location 1 -->
+                <div class="property-card group">
+                    <div class="property-image overflow-hidden rounded-sm mb-6">
+                        <img src="http://static.photos/estate/1200x630/201" alt="Appartement design" class="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-2xl font-light text-gray-800 mb-2">Appartement design Sablon</h3>
+                    <p class="text-gray-600 mb-4">120m² • 2 chambres • Meublé de caractère</p>
+                    <p class="text-2xl font-light text-gray-900 mb-6">€ 2.800/mois</p>
+                    <a href="#" class="luxury-btn secondary schedule-visit">
+                        Planifier une visite
+                    </a>
+                </div>
+
+                <!-- Location 2 -->
+                <div class="property-card group">
+                    <div class="property-image overflow-hidden rounded-sm mb-6">
+                        <img src="http://static.photos/estate/1200x630/202" alt="Loft industriel" class="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-2xl font-light text-gray-800 mb-2">Loft Saint-Gilles</h3>
+                    <p class="text-gray-600 mb-4">160m² • 1 chambre • Hauteur sous plafond</p>
+                    <p class="text-2xl font-light text-gray-900 mb-6">€ 3.200/mois</p>
+                    <a href="#" class="luxury-btn secondary schedule-visit">
+                        Planifier une visite
+                    </a>
+                </div>
+
+                <!-- Location 3 -->
+                <div class="property-card group">
+                    <div class="property-image overflow-hidden rounded-sm mb-6">
+                        <img src="http://static.photos/estate/1200x630/203" alt="Duplex moderne" class="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <h3 class="text-2xl font-light text-gray-800 mb-2">Duplex Flagey</h3>
+                    <p class="text-gray-600 mb-4">95m² • 2 chambres • Lumineux</p>
+                    <p class="text-2xl font-light text-gray-900 mb-6">€ 2.100/mois</p>
+                    <a href="#" class="luxury-btn secondary schedule-visit">
+                        Planifier une visite
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <luxury-footer></luxury-footer>
+
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-sm p-8 max-w-md w-full mx-auto transform transition-all duration-300 scale-95 opacity-0">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-light text-gray-900">Planifier une visite</h3>
+                <button class="modal-close text-gray-400 hover:text-gray-600 transition-colors">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+            <form id="visitForm" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+                    <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-gray-500 transition-colors" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input type="email" class="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-gray-500 transition-colors" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Téléphone</label>
+                    <input type="tel" class="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-gray-500 transition-colors" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Propriété</label>
+                    <select class="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-gray-500 transition-colors" required>
+                        <option value="">Sélectionner une propriété</option>
+                        <option value="Appartement design Sablon">Appartement design Sablon</option>
+                        <option value="Loft Saint-Gilles">Loft Saint-Gilles</option>
+                        <option value="Duplex Flagey">Duplex Flagey</option>
+                    </select>
+                </div>
+                <button type="submit" class="luxury-btn primary w-full">
+                    Confirmer la demande
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/hero.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
